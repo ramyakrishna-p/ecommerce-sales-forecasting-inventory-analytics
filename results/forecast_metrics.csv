@@ -1,0 +1,3 @@
+model,MAE,RMSE,MAPE_pct
+seasonal_naive,9893.36,13030.22,22.76
+gradient_boosting,5212.57,7073.98,12.17

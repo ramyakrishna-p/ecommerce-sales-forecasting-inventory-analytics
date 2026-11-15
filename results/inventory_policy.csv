@@ -1,0 +1,6 @@
+category,avg_daily_demand,demand_std,lead_time_days,lead_time_demand,safety_stock,reorder_point
+Clothing,286.29,99.11,7,2004.0,433,2437
+Home & Kitchen,245.89,87.41,7,1721.2,382,2103
+Beauty,181.9,56.84,7,1273.3,248,1521
+Electronics,160.53,54.44,7,1123.7,238,1361
+Sports,111.12,45.97,7,777.9,201,979

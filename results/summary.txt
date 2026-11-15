@@ -1,0 +1,17 @@
+E-commerce Sales Forecasting & Inventory Analytics — summary (SYNTHETIC data, seed 42)
+
+Dataset: 730 days (2024-01-01 to 2025-12-30), 5 categories, 3650 day-category rows, total revenue £27,055,859.76
+
+Forecast holdout (last 56 days, one-step-ahead using observed lags):
+  seasonal_naive: MAE £9,893.36 | RMSE £13,030.22 | MAPE 22.76%
+  gradient_boosting: MAE £5,212.57 | RMSE £7,073.98 | MAPE 12.17%
+
+Next 28 days forecast revenue (recursive): £1,121,640.07
+
+Inventory policy (lead time 7 days, 95% service level, z=1.65):
+      category  avg_daily_demand  demand_std  lead_time_days  lead_time_demand  safety_stock  reorder_point
+      Clothing            286.29       99.11               7            2004.0           433           2437
+Home & Kitchen            245.89       87.41               7            1721.2           382           2103
+        Beauty            181.90       56.84               7            1273.3           248           1521
+   Electronics            160.53       54.44               7            1123.7           238           1361
+        Sports            111.12       45.97               7             777.9           201            979
